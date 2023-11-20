@@ -84,7 +84,7 @@
     border:2px solid gray;
     border-radius: 20px;
     margin: 10px;
-    max-height: 50000px;
+    max-height: 500px;
 }
 
 ul{
@@ -110,8 +110,12 @@ input[type=checkbox]{
     width: 15px;
     height:15px;
     margin-right: 5px;
+    object-fit:contain
 }
 
+h5{
+    margin:0 0 10px 10px;
+}
 
 @media only screen and (max-width: 720px) {
     .task-container{
